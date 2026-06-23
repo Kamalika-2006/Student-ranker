@@ -1,0 +1,418 @@
+2026-06-19 12:58:41,394 - ERROR - NameError detected.
+2026-06-19 13:00:11,769 - ERROR - ScoreError detected.
+2026-06-19 13:06:39,999 - ERROR - ScoreError detected.
+2026-06-19 13:18:27,888 - ERROR - ScoreError detected
+2026-06-19 13:40:51,304 - ERROR - NameError detected.
+2026-06-19 13:41:42,957 - ERROR - ScoreError detected: mark 343.0 out of range
+2026-06-19 14:54:49,282 - ERROR - Invalid student name entered
+2026-06-19 14:55:26,076 - ERROR - ScoreError detected: mark 444.0 out of range
+2026-06-19 14:55:42,091 - ERROR - Invalid student name entered
+2026-06-19 14:59:59,580 - ERROR - ScoreError detected: non-numeric mark entered for chemistry
+2026-06-22 12:47:28,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 12:47:28,710 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 12:49:10,934 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 12:49:10,934 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 12:51:43,269 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 12:51:43,269 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 12:51:59,665 - INFO - 127.0.0.1 - - [22/Jun/2026 12:51:59] "GET / HTTP/1.1" 200 -
+2026-06-22 12:52:08,252 - INFO - 127.0.0.1 - - [22/Jun/2026 12:52:08] "GET /students HTTP/1.1" 200 -
+2026-06-22 13:01:08,287 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:01:08,287 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:01:08,292 - INFO -  * Restarting with stat
+2026-06-22 13:01:09,102 - WARNING -  * Debugger is active!
+2026-06-22 13:01:09,119 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:01:33,508 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:01:33,589 - INFO -  * Restarting with stat
+2026-06-22 13:01:54,963 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:01:54,964 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:01:54,966 - INFO -  * Restarting with stat
+2026-06-22 13:01:55,857 - WARNING -  * Debugger is active!
+2026-06-22 13:01:55,865 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:02:22,271 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:02:22,310 - INFO -  * Restarting with stat
+2026-06-22 13:02:42,510 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:02:42,511 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:02:42,516 - INFO -  * Restarting with stat
+2026-06-22 13:02:43,175 - WARNING -  * Debugger is active!
+2026-06-22 13:02:43,180 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:03:33,900 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:03:33,936 - INFO -  * Restarting with stat
+2026-06-22 13:04:46,335 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:04:46,336 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:04:46,339 - INFO -  * Restarting with stat
+2026-06-22 13:04:47,140 - WARNING -  * Debugger is active!
+2026-06-22 13:04:47,147 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:14:57,212 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:14:57,398 - INFO -  * Restarting with stat
+2026-06-22 13:14:58,258 - WARNING -  * Debugger is active!
+2026-06-22 13:14:58,268 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:15:05,406 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:15:05,463 - INFO -  * Restarting with stat
+2026-06-22 13:15:06,568 - WARNING -  * Debugger is active!
+2026-06-22 13:15:06,573 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:15:13,687 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:15:13,688 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:15:13,690 - INFO -  * Restarting with stat
+2026-06-22 13:15:14,501 - WARNING -  * Debugger is active!
+2026-06-22 13:15:14,507 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:17:14,281 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:17:14,355 - INFO -  * Restarting with stat
+2026-06-22 13:17:14,391 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:17:14,460 - INFO -  * Restarting with stat
+2026-06-22 13:17:15,364 - WARNING -  * Debugger is active!
+2026-06-22 13:17:15,370 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:17:17,016 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:17:17,016 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:17:17,019 - INFO -  * Restarting with stat
+2026-06-22 13:17:17,871 - WARNING -  * Debugger is active!
+2026-06-22 13:17:17,876 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:18:21,774 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:18:21,869 - INFO -  * Restarting with stat
+2026-06-22 13:18:22,399 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:18:22,451 - INFO -  * Restarting with stat
+2026-06-22 13:18:22,653 - WARNING -  * Debugger is active!
+2026-06-22 13:18:22,659 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:18:23,236 - WARNING -  * Debugger is active!
+2026-06-22 13:18:23,242 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:18:25,720 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:18:25,766 - INFO -  * Restarting with stat
+2026-06-22 13:18:26,315 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:18:26,365 - INFO -  * Restarting with stat
+2026-06-22 13:18:26,472 - WARNING -  * Debugger is active!
+2026-06-22 13:18:26,478 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:18:27,037 - WARNING -  * Debugger is active!
+2026-06-22 13:18:27,041 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:18:30,014 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:18:30,014 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:18:30,020 - INFO -  * Restarting with stat
+2026-06-22 13:18:30,799 - WARNING -  * Debugger is active!
+2026-06-22 13:18:30,803 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:18:39,227 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:18:39,275 - INFO -  * Restarting with stat
+2026-06-22 13:18:39,952 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:18:40,014 - INFO -  * Restarting with stat
+2026-06-22 13:18:40,027 - WARNING -  * Debugger is active!
+2026-06-22 13:18:40,032 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:18:40,640 - WARNING -  * Debugger is active!
+2026-06-22 13:18:40,645 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:20:11,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:20:11,471 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:20:11,477 - INFO -  * Restarting with stat
+2026-06-22 13:20:12,161 - WARNING -  * Debugger is active!
+2026-06-22 13:20:12,166 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:22,972 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:23,020 - INFO -  * Restarting with stat
+2026-06-22 13:22:23,224 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:23,289 - INFO -  * Restarting with stat
+2026-06-22 13:22:23,868 - WARNING -  * Debugger is active!
+2026-06-22 13:22:23,872 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:24,090 - WARNING -  * Debugger is active!
+2026-06-22 13:22:24,094 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:24,901 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:24,948 - INFO -  * Restarting with stat
+2026-06-22 13:22:25,139 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:25,204 - INFO -  * Restarting with stat
+2026-06-22 13:22:25,703 - WARNING -  * Debugger is active!
+2026-06-22 13:22:25,711 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:25,969 - WARNING -  * Debugger is active!
+2026-06-22 13:22:25,974 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:27,775 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:27,824 - INFO -  * Restarting with stat
+2026-06-22 13:22:28,025 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:28,083 - INFO -  * Restarting with stat
+2026-06-22 13:22:28,595 - WARNING -  * Debugger is active!
+2026-06-22 13:22:28,607 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:28,967 - WARNING -  * Debugger is active!
+2026-06-22 13:22:28,974 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:30,689 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:30,745 - INFO -  * Restarting with stat
+2026-06-22 13:22:31,021 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:31,080 - INFO -  * Restarting with stat
+2026-06-22 13:22:31,548 - WARNING -  * Debugger is active!
+2026-06-22 13:22:31,561 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:31,950 - WARNING -  * Debugger is active!
+2026-06-22 13:22:31,956 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:32,626 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:32,689 - INFO -  * Restarting with stat
+2026-06-22 13:22:32,988 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:33,068 - INFO -  * Restarting with stat
+2026-06-22 13:22:33,510 - WARNING -  * Debugger is active!
+2026-06-22 13:22:33,515 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:33,768 - WARNING -  * Debugger is active!
+2026-06-22 13:22:33,773 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:40,640 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:40,698 - INFO -  * Restarting with stat
+2026-06-22 13:22:40,882 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:22:40,968 - INFO -  * Restarting with stat
+2026-06-22 13:22:41,720 - WARNING -  * Debugger is active!
+2026-06-22 13:22:41,725 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:22:41,816 - WARNING -  * Debugger is active!
+2026-06-22 13:22:41,820 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:45:27,357 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:45:27,501 - INFO -  * Restarting with stat
+2026-06-22 13:46:04,465 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:46:04,466 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:46:04,468 - INFO -  * Restarting with stat
+2026-06-22 13:46:05,153 - WARNING -  * Debugger is active!
+2026-06-22 13:46:05,160 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:46:26,521 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:46:26,575 - INFO -  * Restarting with stat
+2026-06-22 13:47:53,587 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:47:53,587 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:47:53,590 - INFO -  * Restarting with stat
+2026-06-22 13:47:54,619 - WARNING -  * Debugger is active!
+2026-06-22 13:47:54,623 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:49:13,509 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:49:13,564 - INFO -  * Restarting with stat
+2026-06-22 13:49:14,292 - WARNING -  * Debugger is active!
+2026-06-22 13:49:14,296 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:49:15,335 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:49:15,379 - INFO -  * Restarting with stat
+2026-06-22 13:49:16,174 - WARNING -  * Debugger is active!
+2026-06-22 13:49:16,178 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:49:33,440 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:49:33,481 - INFO -  * Restarting with stat
+2026-06-22 13:49:34,106 - WARNING -  * Debugger is active!
+2026-06-22 13:49:34,110 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:49:39,188 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:49:39,241 - INFO -  * Restarting with stat
+2026-06-22 13:49:39,971 - WARNING -  * Debugger is active!
+2026-06-22 13:49:39,977 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:49:42,757 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:49:42,757 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:49:42,759 - INFO -  * Restarting with stat
+2026-06-22 13:49:43,407 - WARNING -  * Debugger is active!
+2026-06-22 13:49:43,412 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:50:01,655 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:50:01,731 - INFO -  * Restarting with stat
+2026-06-22 13:50:06,300 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 13:50:06,300 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 13:50:06,303 - INFO -  * Restarting with stat
+2026-06-22 13:50:07,014 - WARNING -  * Debugger is active!
+2026-06-22 13:50:07,021 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:50:51,629 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:50:51,667 - INFO -  * Restarting with stat
+2026-06-22 13:50:52,274 - WARNING -  * Debugger is active!
+2026-06-22 13:50:52,288 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:50:57,401 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:50:57,446 - INFO -  * Restarting with stat
+2026-06-22 13:50:58,218 - WARNING -  * Debugger is active!
+2026-06-22 13:50:58,224 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:51:04,343 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:51:04,381 - INFO -  * Restarting with stat
+2026-06-22 13:51:04,957 - WARNING -  * Debugger is active!
+2026-06-22 13:51:04,965 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:51:12,101 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:51:12,144 - INFO -  * Restarting with stat
+2026-06-22 13:51:12,749 - WARNING -  * Debugger is active!
+2026-06-22 13:51:12,759 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 13:51:28,020 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 13:51:28,072 - INFO -  * Restarting with stat
+2026-06-22 14:26:32,234 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:26:32,235 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:26:32,239 - INFO -  * Restarting with stat
+2026-06-22 14:26:33,046 - WARNING -  * Debugger is active!
+2026-06-22 14:26:33,056 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:26:45,280 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:26:45,280 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:26:45,283 - INFO -  * Restarting with stat
+2026-06-22 14:26:45,913 - WARNING -  * Debugger is active!
+2026-06-22 14:26:45,923 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:30:53,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:30:53,922 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:30:53,924 - INFO -  * Restarting with stat
+2026-06-22 14:30:54,499 - WARNING -  * Debugger is active!
+2026-06-22 14:30:54,504 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:34:28,396 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 14:34:28,463 - INFO -  * Restarting with stat
+2026-06-22 14:34:30,944 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:34:30,944 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:35:00,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:35:00,461 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:35:00,462 - INFO -  * Restarting with stat
+2026-06-22 14:35:00,731 - WARNING -  * Debugger is active!
+2026-06-22 14:35:00,733 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:36:25,037 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:36:25,037 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:36:25,038 - INFO -  * Restarting with stat
+2026-06-22 14:36:25,375 - WARNING -  * Debugger is active!
+2026-06-22 14:36:25,378 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:44:39,285 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:44:39,285 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:44:39,287 - INFO -  * Restarting with stat
+2026-06-22 14:44:39,546 - WARNING -  * Debugger is active!
+2026-06-22 14:44:39,549 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:45:10,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:45:10,195 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:45:10,196 - INFO -  * Restarting with stat
+2026-06-22 14:45:10,450 - WARNING -  * Debugger is active!
+2026-06-22 14:45:10,452 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:46:51,713 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 14:46:52,266 - INFO -  * Restarting with stat
+2026-06-22 14:46:52,944 - WARNING -  * Debugger is active!
+2026-06-22 14:46:52,947 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:47:22,310 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 14:47:22,375 - INFO -  * Restarting with stat
+2026-06-22 14:55:08,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:55:08,471 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:55:08,472 - INFO -  * Restarting with stat
+2026-06-22 14:55:08,747 - WARNING -  * Debugger is active!
+2026-06-22 14:55:08,751 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:55:37,137 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 14:55:37,177 - INFO -  * Restarting with stat
+2026-06-22 14:55:37,459 - WARNING -  * Debugger is active!
+2026-06-22 14:55:37,461 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:55:41,398 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 14:55:41,399 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 14:55:41,400 - INFO -  * Restarting with stat
+2026-06-22 14:55:41,776 - WARNING -  * Debugger is active!
+2026-06-22 14:55:41,778 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 14:57:55,568 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 14:57:55,771 - INFO -  * Restarting with stat
+2026-06-22 14:57:56,196 - WARNING -  * Debugger is active!
+2026-06-22 14:57:56,205 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:02:59,251 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 15:02:59,347 - INFO -  * Restarting with stat
+2026-06-22 15:02:59,815 - WARNING -  * Debugger is active!
+2026-06-22 15:02:59,817 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:03:03,864 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-22 15:03:03,897 - INFO -  * Restarting with stat
+2026-06-22 15:08:56,537 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:08:56,539 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:08:56,540 - INFO -  * Restarting with stat
+2026-06-22 15:08:56,803 - WARNING -  * Debugger is active!
+2026-06-22 15:08:56,806 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:09:05,924 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:09:05,985 - INFO -  * Restarting with stat
+2026-06-22 15:09:06,373 - WARNING -  * Debugger is active!
+2026-06-22 15:09:06,377 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:12:48,090 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:12:48,395 - INFO -  * Restarting with stat
+2026-06-22 15:13:07,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:13:07,230 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:13:07,231 - INFO -  * Restarting with stat
+2026-06-22 15:13:07,526 - WARNING -  * Debugger is active!
+2026-06-22 15:13:07,533 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:13:15,652 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:13:15,681 - INFO -  * Restarting with stat
+2026-06-22 15:13:16,025 - WARNING -  * Debugger is active!
+2026-06-22 15:13:16,028 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:13:19,040 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:13:19,041 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:13:19,043 - INFO -  * Restarting with stat
+2026-06-22 15:13:19,334 - WARNING -  * Debugger is active!
+2026-06-22 15:13:19,337 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:13:25,428 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:13:25,464 - INFO -  * Restarting with stat
+2026-06-22 15:13:25,758 - WARNING -  * Debugger is active!
+2026-06-22 15:13:25,761 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:13:28,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:13:28,501 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:13:28,502 - INFO -  * Restarting with stat
+2026-06-22 15:13:28,969 - WARNING -  * Debugger is active!
+2026-06-22 15:13:28,972 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:17:02,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:17:02,850 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:17:02,853 - INFO -  * Restarting with stat
+2026-06-22 15:17:03,493 - WARNING -  * Debugger is active!
+2026-06-22 15:17:03,499 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:18:10,262 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:18:10,263 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:18:10,265 - INFO -  * Restarting with stat
+2026-06-22 15:18:11,207 - WARNING -  * Debugger is active!
+2026-06-22 15:18:11,212 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:18:15,164 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:18:15,164 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:18:15,167 - INFO -  * Restarting with stat
+2026-06-22 15:18:15,928 - WARNING -  * Debugger is active!
+2026-06-22 15:18:15,933 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:18:26,077 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:18:26,125 - INFO -  * Restarting with stat
+2026-06-22 15:18:29,257 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:18:29,258 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:18:29,261 - INFO -  * Restarting with stat
+2026-06-22 15:18:29,829 - WARNING -  * Debugger is active!
+2026-06-22 15:18:29,835 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:18:42,038 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:18:42,148 - INFO -  * Restarting with stat
+2026-06-22 15:18:43,585 - WARNING -  * Debugger is active!
+2026-06-22 15:18:43,606 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:18:46,694 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:18:46,742 - INFO -  * Restarting with stat
+2026-06-22 15:19:14,270 - WARNING -  * Debugger is active!
+2026-06-22 15:19:14,277 - INFO -  * Debugger PIN: 120-701-311
+2026-06-22 15:19:19,379 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app1.py', reloading
+2026-06-22 15:35:41,543 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:35:41,544 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 15:40:32,442 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 15:40:32,443 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 17:56:01,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 17:56:01,838 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-23 09:52:29,294 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-23 09:52:29,295 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-23 09:52:29,297 - INFO -  * Restarting with stat
+2026-06-23 09:52:29,670 - WARNING -  * Debugger is active!
+2026-06-23 09:52:29,675 - INFO -  * Debugger PIN: 120-701-311
+2026-06-23 09:52:52,951 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-23 09:52:52,990 - INFO -  * Restarting with stat
+2026-06-23 09:52:53,262 - WARNING -  * Debugger is active!
+2026-06-23 09:52:53,265 - INFO -  * Debugger PIN: 120-701-311
+2026-06-23 09:52:59,214 - INFO - 127.0.0.1 - - [23/Jun/2026 09:52:59] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+2026-06-23 09:52:59,645 - INFO - 127.0.0.1 - - [23/Jun/2026 09:52:59] "GET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-23 09:52:59,647 - INFO - 127.0.0.1 - - [23/Jun/2026 09:52:59] "GET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-23 09:52:59,759 - INFO - 127.0.0.1 - - [23/Jun/2026 09:52:59] "GET /students?__debugger__=yes&cmd=resource&f=console.png&s=N1qhDWLfVf8uJ92NNiDV HTTP/1.1" 200 -
+2026-06-23 09:52:59,966 - INFO - 127.0.0.1 - - [23/Jun/2026 09:52:59] "GET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-23 09:53:50,040 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-23 09:53:50,076 - INFO -  * Restarting with stat
+2026-06-23 09:53:50,352 - WARNING -  * Debugger is active!
+2026-06-23 09:53:50,354 - INFO -  * Debugger PIN: 120-701-311
+2026-06-23 09:53:57,460 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-23 09:53:57,511 - INFO -  * Restarting with stat
+2026-06-23 09:57:06,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-23 09:57:06,081 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-23 09:57:06,082 - INFO -  * Restarting with stat
+2026-06-23 09:57:06,364 - WARNING -  * Debugger is active!
+2026-06-23 09:57:06,366 - INFO -  * Debugger PIN: 120-701-311
+2026-06-23 09:57:13,464 - INFO -  * Detected change in 'D:\\exclentia-INTERN\\others\\app.py', reloading
+2026-06-23 09:57:13,491 - INFO -  * Restarting with stat
+2026-06-23 09:58:52,265 - INFO -  * Restarting with stat
+2026-06-23 09:58:53,673 - INFO -  * Restarting with stat
+2026-06-23 09:58:56,038 - INFO -  * Restarting with stat

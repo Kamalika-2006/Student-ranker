@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Aasha",
+        "year": 3,
+        "marks": {
+            "Iot": 78.0,
+            "DBms": 89.0
+        }
+    },
+    {
+        "name": "karthik",
+        "year": 3,
+        "marks": {
+            "Iot": 89.0,
+            "DBms": 66.0
+        }
+    },
+    {
+        "name": "yaatra",
+        "year": 3,
+        "marks": {
+            "Iot": 90.0,
+            "DBms": 80.0
+        }
+    },
+    {
+        "name": "sam",
+        "year": 3,
+        "marks": {
+            "Iot": 56.0,
+            "DBms": 76.0
+        }
+    },
+    {
+        "name": "elsa",
+        "year": 3,
+        "marks": {
+            "Iot": 70.0,
+            "DBms": 55.0
+        }
+    }
+]
