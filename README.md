@@ -108,11 +108,23 @@ Built a web form for adding students:
 
 ---
 
+### Day 11
+* updated_app.py
+* templates/main-update-student.html
+          /update-student.html
+
+* Built a student listing page using Flask and Jinja2 templates:
+
+* Retrieved student records from the SQLite database (students.db)
+* Displayed all students in a structured HTML table
+* Showed student details such as Roll Number, Name, Year, Subject, and Marks
+* Used Flask's render_template() function to pass data from the backend to the frontend
+* Dynamically generated table rows using Jinja2 template loops
+* Added a dedicated route for viewing all student records through the browser
+
+
 ## Upcoming Enhancements
 
-### Day 11
-
-* Display all students in an HTML table
 
 ### Day 12
 
