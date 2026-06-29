@@ -68,6 +68,8 @@ def temp1():
 def temp2():
     return render_template("update-student.html")
 
+
+#login_form
 @app.post("/login")
 def loginPage():
     conn = sqlite3.connect("students.db")
@@ -86,6 +88,7 @@ def loginPage():
     message  ="Login successfull"
     return render_template("navigateToSubjectPage.html")
 
+#register_form
 @app.post("/register")
 def registerPage():
     try:
@@ -102,7 +105,8 @@ def registerPage():
     except sqlite3.IntegrityError:
         conn.close()
         return "Username or Email already exists."
-    
+
+#add-students 
 @app.post("/students")
 def students():
     conn = sqlite3.connect("students.db")
@@ -137,7 +141,7 @@ def students():
     conn.close()
     return "student Added"
 
-
+#delete-form
 @app.post("/del-students")
 def delete_students():
     conn = sqlite3.connect("students.db")
@@ -150,7 +154,8 @@ def delete_students():
     return render_template(
         "delete-student.html",
     )
-    
+
+#subject-form
 @app.post("/subjects")
 def subjects():
     n = int(request.form["subjects_num"])
@@ -158,7 +163,7 @@ def subjects():
         "add-student.html",
         subjects_num = n
     )
-
+#update student
 @app.post("/update-students")
 def update_students():
     sub_no = int(request.form["upd_sub_num"])
@@ -167,6 +172,7 @@ def update_students():
         "main-update-student.html",
         upd_sub_num = sub_no
     )
+#main-update-student
 @app.post("/upd")
 def main_stud_update():
     conn = sqlite3.connect("students.db")
