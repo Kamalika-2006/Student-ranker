@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='leaderboard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='sidebar.css') }}">
+
+</head>
+<body>
+    {% include "sidebar.html" %}
+    <h2>Overall Class Leader Board</h2>
+<div class="main-container">
+
+    <div class="left-panel">
+
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Average</th>
+            </tr>
+
+            {% for s in students %}
+            <tr>
+                <td>{{loop.index}}</td>
+                <td>{{s[0]}}</td>
+                <td>{{s[1]}}</td>
+                <td>{{s[2]}}</td>
+                <td>{{"%.2f"|format(s[3])}}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+
+    </div>
+    
+    <div class="right-panel">
+        <div class="class-average">
+            Class Average : {{"%.2f"|format(class_avg)}}
+        </div>
+        <div class="card">
+            <h3>Top 3 Students</h3>
+            <table>
+                <tr>
+                    <th>Roll</th>
+                    <th>Name</th>
+                    <th>Average</th>
+                </tr>
+
+                {% for t in top3 %}
+                <tr>
+                    <td>{{t[0]}}</td>
+                    <td>{{t[1]}}</td>
+                    <td>{{"%.2f"|format(t[3])}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div class="card">
+
+            <h3>Bottom 3 Students</h3>
+
+            <table>
+                <tr>
+                    <th>Roll</th>
+                    <th>Name</th>
+                    <th>Average</th>
+                </tr>
+
+                {% for b in bottom3 %}
+                <tr>
+                    <td>{{b[0]}}</td>
+                    <td>{{b[1]}}</td>
+                    <td>{{"%.2f"|format(b[3])}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

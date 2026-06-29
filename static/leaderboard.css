@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#F4F8FC;
+}
+
+h2{
+    text-align:center;
+    color:#1E3A8A;
+    margin-bottom:30px;
+}
+
+/* Main Layout */
+
+.main-container{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+/* LEFT SIDE */
+
+.left-panel{
+    flex:2.5;
+}
+
+/* RIGHT SIDE */
+
+.right-panel{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+/* Cards */
+
+.card{
+    background:white;
+    padding:18px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+/* Tables */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:#1E3A8A;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background:#EEF4FF;
+}
+
+tr:hover{
+    background:#D6E4FF;
+}
+
+h3{
+    text-align:center;
+    color:#1E3A8A;
+    margin-top:0;
+}
+
+/* Class Average */
+
+.class-average{
+    width:250px;
+    margin:35px auto;
+    padding:15px;
+    text-align:center;
+    background:white;
+    border-left:6px solid #2563EB;
+    border-radius:8px;
+    font-weight:bold;
+    color:#1E3A8A;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}

@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Student Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='add-student.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='sidebar.css') }}">
 </head>
 <body>
-    <form action="/students" method = "POST">
-        <label for="rno">Roll NO</label>
-        <input type = "number" name ="roll_no"/>
-        <label for="name">Name</label>
-        <input type = "text" name ="name"/>
-        <label for="year">Year</label>
-        <input type = "number" name ="year"/>
-        {% for i in range(subjects_num)%}
-            <h4>Subject{{i+1}}</h4>
-            <input type="text" name="subject{{i}}" placeholder="Name"/>
-            <input type="number" name="marks{{i}}" placeholder="Mark"/>
-        {% endfor %}
-        <button type="submit">Add Student</button>
-    </form>
+    {% include "sidebar.html" %}
+    <div class="main-container">
+            <h1>Add Student</h1>
+            <form action="/students" method = "POST">
+            <label for="rno">Roll NO</label>
+            <input type = "number" name ="roll_no"/>
+            <label for="name">Name</label>
+            <input type = "text" name ="name"/>
+            <label for="year">Year</label>
+            <input type = "number" name ="year"/>
+            {% for i in range(subjects_num)%}
+                <h4>Subject{{i+1}}</h4>
+                <input type="text" name="subject{{i}}" placeholder="Name"/>
+                <input type="number" name="marks{{i}}" placeholder="Mark"/>
+            {% endfor %}
+            <button type="submit">Add Student</button>
+        </form>
+    </div>
+    
 </body>
 </html>

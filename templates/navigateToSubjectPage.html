@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='navigate.css')}}">
 </head>
 <body>
-    <button>
-        <a href="./temp">Go to Subjects page</a>
-    </button>
-    <br/>
-    <br/>
-    <button>
-        <a href="./temp1">Delete students</a>
-    </button>
-    <br/>
-    <br/>
-    <button>
-        <a href="./temp2">update students</a>
-    </button>
-    <br/>
-    <br/>
-    <button>
-        <a href="./all">Show Students</a>
-    </button>
-    
+    <div class="navigation-container">
+        <h2>Student Score Manager</h2>
+        <h4>Teacher's Dashboard</h4>
+        <div class="cont">
+            <a href="./temp" class="btn">Add Students</a>
+            <a href="./temp1" class="btn">Delete students</a>
+            <a href="./temp2" class="btn">update students</a>
+            <a href="./all" class="btn">Show Students</a>
+            <a href="./leaderboard" class="btn">Show leaderboard status</a>
+            <a href="./loginPage" class="btn">Logout</a>
+        </div>
+    </div>
     
 </body>
 </html>

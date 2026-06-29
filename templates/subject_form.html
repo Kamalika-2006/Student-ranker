@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subject Details Form</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='subject-form.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='sidebar.css')}}">
 </head>
 <body>
-    <form method = "POST" action = "/subjects">
-        <label>Subject Details:</label><br/>
-        <label>Enter the number of subjects:</label>
-        <input type = "number" name = "subjects_num"/><br/>
-        <button type="submit">Next Page</button>
-    </form>
+    {% include "sidebar.html" %}
+    <div class="main-container">
+        <h2>Subject Details</h2>
+            <form method = "POST" action = "/subjects">
+                <label>Subject Details:</label><br/>
+                <label>Enter the number of subjects:</label>
+                <input type = "number" name = "subjects_num" required/><br/>
+                <button type="submit">Next Page</button>
+            </form>
+    </div>
+    
 </body>
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-bar">
+    <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+    <h2 class="logo">Student Score Manager</h2>
+</div>
+    <div id="sidebar" class="sidebar">
+    <a href="/homePage">Home</a>
+    <a href="/temp">Add Student</a>
+    <a href="/temp1">Delete Student</a>
+    <a href="/temp2">Update Student</a>
+    <a href="/all">Show Students</a>
+    <a href="/leaderboard">Leaderboard</a>
+    <a href="/">Logout</a>
+
+</div>
+
+
+<script>
+let open = true;
+
+function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar");
+
+    if (open) {
+        sidebar.style.width = "0";
+    } else {
+        sidebar.style.width = "200px";
+    }
+
+    open = !open;
+}
+</script>
+</body>
+</html>

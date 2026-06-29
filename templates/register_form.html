@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='register_form.css') }}">
+</head>
+<body>
+    <div class="register-container">
+    <h2>Teacher's Registration</h2>
+    <form action="/register" method="post">
+        <label>Name :</label>
+        <input type="text" name="name"/>
+        <label>Enter the username:</label>
+        <input type="text" name="username"/>
+        <label>Email id:</label>
+        <input type="email" name="mail"/> 
+        <label>Set a password: </label>
+        <input type="password" name="pass"/>
+        <button type="submit">REGISTER</button>
+    </form>
+    <p>
+        Already Registered?
+        <a href="/loginPage"><i>Login here</i></a>
+    </p>  
+    </div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, render_template, redirect
 import csv
 import sqlite3
 
@@ -27,11 +27,32 @@ def init_db():
         )
         """
     )
+    cur.execute(
+        """
+            create table if not exists users(
+                teacher_id integer primary key autoincrement,
+                username text unique not null,
+                email text unique not null,
+                password text not null
+            )
+        """
+    )
     conn.commit()
     conn.close()
 
-
 @app.get("/")
+def mainPage():
+    return render_template("mainPage.html")
+
+@app.get("/loginPage")
+def login():
+    return render_template("login_form.html")
+
+@app.get("/registerPage")
+def register():
+    return render_template("register_form.html")
+
+@app.get("/homePage")
 def front_page():
     return render_template("navigateToSubjectPage.html")
 
@@ -46,6 +67,42 @@ def temp1():
 @app.get("/temp2")
 def temp2():
     return render_template("update-student.html")
+
+@app.post("/login")
+def loginPage():
+    conn = sqlite3.connect("students.db")
+    cur = conn.cursor()
+    username = request.form["username"]
+    pwd = request.form["pass"]
+
+    cur.execute("select * from users where username = ? and password = ?",
+                (username, pwd))
+    row = cur.fetchone()
+    if not row:
+        conn.close()
+        return "Username not found."
+    conn.commit()
+    conn.close()
+    message  ="Login successfull"
+    return render_template("navigateToSubjectPage.html")
+
+@app.post("/register")
+def registerPage():
+    try:
+        conn = sqlite3.connect("students.db")
+        cur = conn.cursor()
+        user = request.form["username"]
+        pwd = request.form["pass"]
+        mail = request.form["mail"]
+        cur.execute("insert into users(username, email, password) values(?, ?, ?)",
+                    (user, mail, pwd))
+        conn.commit()
+        conn.close()
+        return redirect("/homePage")
+    except sqlite3.IntegrityError:
+        conn.close()
+        return "Username or Email already exists."
+    
 @app.post("/students")
 def students():
     conn = sqlite3.connect("students.db")
@@ -90,7 +147,9 @@ def delete_students():
     cur.execute("delete from student_marks where rollNo = ?",(id,))
     conn.commit()
     conn.close()
-    return "student deleted"
+    return render_template(
+        "delete-student.html",
+    )
     
 @app.post("/subjects")
 def subjects():
@@ -136,7 +195,6 @@ def all_students():
     cur = conn.cursor()
 
     cur.execute(
-        # "select * from student_data"
         "select * from student_data as sd join student_marks as sm on sd.rollNo = sm.rollNo"
     )
     rows = cur.fetchall()
@@ -148,7 +206,7 @@ def all_students():
             rno = row[0]
             if rno not in s:
                 s[rno]={
-                    "Roll No":rno,
+                    "RollNo":rno,
                     "Name":row[1],
                     "Year":row[2],
                     "Marks":[]
@@ -157,9 +215,40 @@ def all_students():
                     "subject":row[5],
                     "mark":row[6]
                 })
-    return s
+    return render_template(
+        "show_students.html",
+        stud=list(s.values())
+    )
 
-
+@app.get("/leaderboard")
+def leaderboard():
+    try:
+        conn = sqlite3.connect("students.db")
+        cur = conn.cursor()
+        cur.execute("""select sd.rollNo, sd.name, sd.year, AVG(sm.mark_gained) 
+                    from student_data as sd join student_marks as sm 
+                    on sd.rollNo = sm.rollNo 
+                    group by sd.rollNo
+                    order by AVG(sm.mark_gained) DESC
+                """)
+        rows = cur.fetchall()
+        if not rows:
+            return "No students found"
+        top3 = rows[:3]
+        bottom3 = rows[-3:]
+        class_avg = sum(row[3] for row in rows)/len(rows)
+        conn.commit()
+        conn.close()
+        return render_template(
+            "showLeaderboard.html",
+            students = rows,
+            top3 = top3,
+            bottom3= bottom3,
+            class_avg = class_avg
+            )
+    except Exception as e:
+        return f"Error : {e}"
+    
 if __name__ == "__main__":
     init_db()
     app.run(debug = True)

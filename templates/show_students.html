@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Records</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='show_student.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='sidebar.css') }}">
+</head>
+
+<body>
+    {% include "sidebar.html" %}
+
+<h1>Student Records</h1>
+
+<table>
+
+    <tr>
+        <th rowspan="2">S.No</th>
+        <th rowspan="2">Roll No</th>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">Year</th>
+        <th colspan="2">Marks</th>
+    </tr>
+
+    <tr>
+        <th>Subject</th>
+        <th>Mark</th>
+    </tr>
+
+    {% for s in stud %}
+
+        {% set count = s.Marks|length %}
+
+        <tr>
+
+            <td rowspan="{{ count }}">{{ loop.index }}</td>
+
+            <td rowspan="{{ count }}">{{ s.RollNo }}</td>
+
+            <td rowspan="{{ count }}">{{ s.Name }}</td>
+
+            <td rowspan="{{ count }}">{{ s.Year }}</td>
+
+            <td>{{ s.Marks[0].subject }}</td>
+
+            <td>{{ s.Marks[0].mark }}</td>
+
+        </tr>
+
+        {% for mark in s.Marks[1:] %}
+
+        <tr>
+            <td>{{ mark.subject }}</td>
+            <td>{{ mark.mark }}</td>
+        </tr>
+
+        {% endfor %}
+
+    {% endfor %}
+
+</table>
+
+</body>
+</html>

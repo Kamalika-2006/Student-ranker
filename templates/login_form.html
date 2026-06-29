@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='login_form.css') }}">
+</head>
+<body>
+    <div class="login-container">
+    <form action="/login" method="post">
+        <h2>Teacher Login</h2>
+        <label>Username :</label>
+        <input type="text" name="username"/>
+        <br/>
+        <label>Password : </label>
+        <input type="password" name="pass"/>
+        <br/>
+        <button type="submit"><strong>LOGIN</strong></button>
+    </form>
+    <br/>
+    <p>
+        Don't have an accout?
+        <a href="/registerPage"><i>Register Here</i></a>
+    </p>
+    </div>
+</body>
+</html>

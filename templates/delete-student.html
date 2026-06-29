@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='delete_student.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='sidebar.css') }}">
 </head>
 <body>
-    <form action="/del-students",(del_rno) method="POST">
-        <label>Enter the student roll no to delete:</label>
-        <input type="number" name="del_rno"/>
-        <button type="submit">Delete</button>
-    </form>
+    {% include "sidebar.html" %}
+    <div class="content">
+        <div class="main-container">
+            <h2>Delete Student</h2>
+            <form action="/del-students" method="POST">
+                <label>Enter the student roll no to delete:</label>
+                <input type="number" name="del_rno"/>
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    </div>
+    
     
 </body>
 </html>
